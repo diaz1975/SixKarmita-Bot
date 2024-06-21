@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 try{
 let contact, number, ofc, nombre, description, correo, lugar, enlace, biog
 let pp = gataImg
-const cat = `🥷 DIAZBOT-V3 🥷
+const cat = `🥷 Six Karmita Bot 🥷
 * ${bot}
 
 *---------------------*
