@@ -89,7 +89,7 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 
 if (!/web|desktop|unknown/gi.test(dispositivo)) {  
 let menu = `
-╭═══〘卐 _Diaz bot v3_ 卐〙═══⊷❍
+╭═══〘卐 _Six Karmita Bot_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
 ┃☭│ 
@@ -98,7 +98,7 @@ let menu = `
 ┃☭│
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│DIAZ BOT x DIAZ MOD
+┃☭│SIX KARMITA BOT x DIAZ MOD
 ┃☭│ 
 ┃☭╰───────────────
 ╰═════════════════⊷
@@ -161,11 +161,11 @@ buttonParamsJson
 }}
 let katashi = `𝗘𝗟 𝗠𝗘𝗡𝗨 𝗦𝗢𝗟𝗜𝗖𝗜𝗧𝗔𝗗𝗢 𝗘𝗦 𝗩𝗜𝗦𝗜𝗕𝗟𝗘 𝗨𝗡𝗜𝗖𝗔𝗠𝗘𝗡𝗧𝗘 𝗣𝗔𝗥𝗔 𝗨𝗦𝗨𝗔𝗥𝗜𝗢𝗦 𝗖𝗢𝗡 𝗗𝗜𝗦𝗣𝗢𝗦𝗜𝗧𝗜𝗩𝗢𝗦 𝗔𝗡𝗗𝗥𝗢𝗜𝗗.`.trim()
 const message = { messageContextInfo: { deviceListMetadata: {}, deviceListMetadataVersion: 2 }, interactiveMessage }
-await conn.sendFile(m.chat, pp, 'katashi.mp4', katashi, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 🥷 Super DiazBot-v3 - WhatsApp ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}})
+await conn.sendFile(m.chat, pp, 'katashi.mp4', katashi, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 🥷 Six Karmita Bot - WhatsApp ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}})
 await conn.relayMessage(m.chat, { viewOnceMessage: { message } }, {})
       
 } else { 
-let menu = `╭═══〘卐 _Diaz Bot MD_ 卐〙═══⊷❍
+let menu = `╭═══〘卐 _Six Karmita Bot_ 卐〙═══⊷❍
 ┃ ${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.genero == 'Ocultado 🕶️' ? `🕶️` : user.genero == 'Mujer 🚺' ? `🚺` : user.genero == 'Hombre 🚹' ? `🚹` : '👤'} ${user.registered === true ? user.name : taguser} 💖*
 
 ┃☭│ \`\`\`${horarioFecha}\`\`\`
