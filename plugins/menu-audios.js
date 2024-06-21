@@ -79,7 +79,7 @@ let str = `
 ┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 
-╭═══〘卐 _Diaz bot v3_ 卐〙═══⊷❍
+╭═══〘卐 _Six Karmita Bot_ 卐〙═══⊷❍
 ┃☭│ *${lenguajeGB['smsTex16']()}* 🔊
 ┃☭│ ${lenguajeGB['smsTex17']()}
 ┃☭│ _Noche de paz_
